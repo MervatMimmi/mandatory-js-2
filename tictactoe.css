@@ -1,0 +1,79 @@
+body {
+  width: 100%;
+  background-color: lightcyan;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+
+table {
+margin: 0px auto;
+}
+
+.container{
+  background-color: aqua;
+  height: 150px;
+  width: 150px;
+  border: 2px solid aqua;
+  border-radius: 30px;
+  font-size: 150px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+/* Popup modal*/
+
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display:none;
+}
+
+.modal-popup {
+  width: 500px;
+  height: 300px;
+  background-color: lightcyan;
+  border: 5px lightblue;
+  border-radius: 10px;
+  position: relative;
+}
+
+p{
+  font-size: 25px;
+  margin: 50px;
+  text-align: center;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  display: inline-block;
+  background-color: aqua;
+  font-size: 25px;
+  margin: 50px;
+  border-radius: 12px;
+  border-color: lightblue;
+}
+
+button:hover{
+  background-color: lightgrey;
+  cursor: pointer;
+}
